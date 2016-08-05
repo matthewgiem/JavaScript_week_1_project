@@ -1,10 +1,12 @@
 var Github = require('./../js/github-model.js').githubModule;
 
 $(document).ready(function()  {
-  var user = new User();
+  var github = new Github();
   $('#search').submit(function()  {
-    $(".output").empty();
+    $("#githubUser").empty();
     user_name = $("#user_name").val();
+    github.userName = user_name;
+    github.retuenRepos();
     event.preventDefault();
   });
 });

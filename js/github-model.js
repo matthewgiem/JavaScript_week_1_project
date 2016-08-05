@@ -4,7 +4,7 @@ function Github() {
   this.userName = "";
 }
 
-Github.prototype.retuenRepos = function () {
+Github.prototype.returnRepos = function () {
   var url = "https://api.github.com/users/" + this.userName + "/repos?access_token=" + apiKey;
   $.get(url).then(function(response) {
     url = response[0].owner.avatar_url
@@ -16,6 +16,10 @@ Github.prototype.retuenRepos = function () {
   }).fail(function(error) {
     $("#githubUser").append("<p>the user name you looked up doesn't exist in git hub</p>")
   });
+};
+
+Github.prototype.return = function () {
+
 };
 
 exports.githubModule = Github;

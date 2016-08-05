@@ -6,7 +6,7 @@ $(document).ready(function()  {
     $("#githubUser").empty();
     user_name = $("#user_name").val();
     github.userName = user_name;
-    github.retuenRepos();
+    github.returnRepos();
     event.preventDefault();
   });
 });

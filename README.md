@@ -12,29 +12,23 @@ This repository contains the following folders and files.  They can be used to c
 * package.json
 * index.html with bootstrap and jquery linked
 * .gitignore
-* .build folder
+* build folder
 
 ## Setup/Installation Requirements
 
-To create your own template repository on github
+To install this repository on to your computer and see the finished project
 
-* Clone the github repository using the git clone command from /Desktop
-* Create a new repository on github to keep your template
-* Using git remote add pair the clone on your desktop with your new repository
-* Add, commit, and push, and then you'll have your own copy of the template to do with as you wish
-
-To install this repository into a new project each time, first
-
-* Clone the github repository using the git clone command from /Desktop
-* Create a new folder in the Desktop with your project name
-* Copy and paste the entire contents of the cloned /javascript-template into your new folder (this should not include the .pairs file)
-* Move into your new folder and initialize git as normal
+* ``` $ git clone https://github.com/matthewgiem/JavaScript_week_1_project ``` Clone the github repository using the git clone command from /Desktop
+* ``` $ cd JavaScript_week_1_project ``` do move in to the directory for the project
 * ``` $ npm install ``` to pull dependencies listed in package.json
-* Congrats! You now have a new repo based on this template
+* ``` $ bower install ``` to pull dependencies listed in bower
+* ``` $ gulp build ``` to build the temp files for your production webpage
+* ``` $ gulp serve ``` to start the server so you can view your project in local:3000
+* Congrats! Github Users should be up and running
 
 Some **DONT'S**
 
-* Don't just rename the cloned git repository - that will mess up future commits.  Do the copy/paste
+* right now everything works the way I planned and you shouldn't be able to break the program
 
 ## Known Bugs
 
@@ -48,4 +42,4 @@ Come by during class if you have questions.
 
 Licensed under the MIT License
 
-Copyright (c) 2016 **Epicodus Pair Projects**
+Copyright (c) 2016 **Epicodus JavaScript Week 1 Project Projects**

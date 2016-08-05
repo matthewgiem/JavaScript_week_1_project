@@ -1,12 +1,12 @@
-# Javascript Template
+# Github User Lookup
 
-#### This is a starter template for Epicodus JS classes. Current as of August 1, 2016
+#### This project is for Epicodus August 5, 2016
 
-#### By Kevin VanEvery and Matthew Giem
+#### By Matthew Giem
 
 ## Description
 
-This repository contains the following folders and files.  They can be used to support a basic project template for the beginning of each of your projects.
+This repository contains the following folders and files.  They can be used to create the Github User Lookup project
 
 * gulpfile.js
 * package.json

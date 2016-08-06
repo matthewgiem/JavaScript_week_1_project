@@ -11,15 +11,15 @@ Github.prototype.returnRepos = function () {
     $('#picture').prepend('<img src="' + url + '" alt="pic of programmer">')
     debugger;
     response.forEach(function(project)  {
-      $("#githubUser").append("<p>respository name: " + project.name + "<br>respository discription: " + project.discription + "</p>");
+      $("#githubUser").append("<p class='col-md-6'>respository name: " + project.name + "<p/><p class='col-md-6'>respository discription: " + project.discription + "</p><hr>");
     });
   }).fail(function(error) {
     $("#githubUser").append("<p>the user name you looked up doesn't exist in git hub</p>")
   });
 };
 
-Github.prototype.return = function () {
-
-};
+// Github.prototype.return = function () {
+//
+// };
 
 exports.githubModule = Github;

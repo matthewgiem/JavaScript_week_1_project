@@ -4,6 +4,7 @@ $(document).ready(function()  {
   var github = new Github();
   $('#search').submit(function()  {
     $("#githubUser").empty();
+    $('#picture').empty();
     userName = $("#userName").val();
     github.userName = userName;
     github.returnRepos();

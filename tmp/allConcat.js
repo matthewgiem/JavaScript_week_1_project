@@ -4,9 +4,10 @@ $(document).ready(function()  {
   var github = new Github();
   $('#search').submit(function()  {
     $("#githubUser").empty();
-    user_name = $("#user_name").val();
-    github.userName = user_name;
-    github.retuenRepos();
+    $('#picture').empty();
+    userName = $("#userName").val();
+    github.userName = userName;
+    github.returnRepos();
     event.preventDefault();
   });
 });
